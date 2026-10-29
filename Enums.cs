@@ -3,9 +3,20 @@ MSSV: 202418832
 Họ tên: Bùi Ngọc Trâm Anh
 */
 
-public enum DeviceStatus 
-{ 
-    Available, 
-    Borrowed, 
-    UnderMaintenance 
+namespace Labw08
+{
+public enum DeviceStatus
+{
+    Available,
+    Borrowed,
+    UnderMaintenance
 }
+
+public enum AlertSeverity
+    {
+        Information,
+        Warning,
+        Critical
+    }
+}
+
